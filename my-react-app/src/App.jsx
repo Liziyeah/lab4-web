@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Products from './pages/Products';
-import MyOrders from './pages/MyOrders';
-import LoginDialog from './components/LoginDialog';
-import Notification from './components/Notification';
+import Navbar from './components/Navbar/Navbar'
+import Home from './pages/home/Home';
+import Products from './pages/products/Products';
+import MyOrders from './pages/myOrders/MyOrders';
+import LoginDialog from './components/LoginDialog/LoginDialog';
+import Notification from './components/Notification/Notification';
 
 const theme = createTheme({
   palette: {

@@ -1,5 +1,5 @@
 
-export const mockProducts = [
+export const mockOrders = [
     {
       id: 1,
       name: "Smartphone Galaxy X10",
